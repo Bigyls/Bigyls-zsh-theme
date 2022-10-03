@@ -1,5 +1,6 @@
 # ParoaPe-zsh-theme
 [![Profile last updated](https://img.shields.io/github/last-commit/paroape/paroape-zsh-theme)](https://github.com/paroape/paroape/)
+
 Personnal zsh theme based on "lpha3cho Oh-My-Zsh theme for pentesters".
 
 This is a modified version of the intheloop theme, with date, time, and IP address added for penetration testing logging.
