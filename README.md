@@ -3,7 +3,7 @@ Personnal zsh theme based on "lpha3cho Oh-My-Zsh theme for pentesters".
 
 This is a modified version of the intheloop theme, with date, time, and IP address added for penetration testing logging.
 
-![[ParoaPe-zsh-theme-screenshot.png]]
+![screenshot](ParoaPe-zsh-theme-screenshot.png)
 
 If you're not already using Zshell, switch to it by opening a terminal and enter: `chsh -s $(which zsh)`. Then logout and login. Don't forget to copy anthing impotant like aliases over from `~/.bashrc` to `~/.zshrc`. Note: Kali Linux uses Zshell by default.
 
