@@ -11,7 +11,7 @@ If you're not already using Zshell, switch to it by opening a terminal and enter
 
 Install Oh My Zsh: [https://ohmyz.sh/](https://ohmyz.sh/)
 
-Copy the file lpha3ch0.zsh-theme to `~/.oh-my-zsh/themes`
+Copy the file ParoaPe.zsh-theme to `~/.oh-my-zsh/themes`
 
 By default it's configured to include the IP address of eth0 for Internal network pentests, so change the network adapter in line 13 if needed.
 
