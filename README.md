@@ -7,7 +7,7 @@ This is a modified version of the intheloop theme, with date, time, and IP addre
 
 ![screenshot](ParoaPe-zsh-theme-screenshot.png)
 
-If you're not already using Zshell, switch to it by opening a terminal and enter: `chsh -s $(which zsh)`. Then logout and login. Don't forget to copy anthing impotant like aliases over from `~/.bashrc` to `~/.zshrc`. Note: Kali Linux uses Zshell by default.
+If you're not already using Zshell, `sudo apt install zsh` then switch to it by opening a terminal and enter: `chsh -s $(which zsh)`. Then logout and login. Don't forget to copy anthing impotant like aliases over from `~/.bashrc` to `~/.zshrc`. Note: Kali Linux uses Zshell by default.
 
 Install Oh My Zsh: [https://ohmyz.sh/](https://ohmyz.sh/)
 
