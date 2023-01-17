@@ -10,8 +10,8 @@ if [ -n "$SSH_CLIENT" ]; then
   local host_color="red"
 fi
 
-PROMPT="%{$fg_bold[red]%}[%{$reset_color%}%{$fg_bold[${host_color}]%}%n@%m%{$reset_color%}%{$fg_bold[red]%}]%{$reset_color%} %{$fg_bold[cyan]%}%c%{$reset_color%} {%{$fg_bold[yellow]%}%W %t%{$reset_color%}} %{$fg_bold[red]%}$(ifconfig | grep -A 1 tun0 | grep inet | tr -s ' ' | cut -d ' ' -f 3) %{$reset_color%}
-%{$fg_bold[green]%}➜%{$reset_color%} "
+PROMPT="%{$fg_bold[red]%}[%{$reset_color%}%{$fg_bold[${host_color}]%}%n@%m%{$reset_color%}%{$fg_bold[red]%}]%{$reset_color%} %{$fg_bold[cyan]%}%c%{$reset_color%} {%{$fg_bold[yellow]%}%D{%d/%m/%y %H:%M:%S}%{$reset_color%}} %{$fg_bold[red]%}$(ifconfig | grep -A 1 tun0 | grep inet | tr -s ' ' | cut -d ' ' -f 3) %{$reset_color%}
+%{$fg_bold[green]%}➜%{$reset_color%}"
 PROMPT+='$(git_prompt_info)'
 
 #PROMPT="%{$fg_bold[grey]%}[%{$reset_color%}%{$fg_bold[${host_color}]%}%n@%m%{$reset_color%}%{$fg_bold[grey]%}]%{$reset_color%} %{$fg_bold[blue]%}%10c %W %t $(curl -s http://ipecho.net/plain; echo) %{$reset_color%} $(git_prompt_info) $(git_remote_status)
