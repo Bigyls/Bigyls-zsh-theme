@@ -11,7 +11,9 @@ If you're not already using Zshell, install it `sudo apt install zsh` then switc
 Don't forget to copy anthing impotant like aliases over from `~/.bashrc` to `~/.zshrc`. Note: Kali Linux uses Zshell by default.
 
 Install [Oh My Zsh](https://ohmyz.sh/):
-`sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"`
+```shell
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+```
 
 Copy the file ParoaPe.zsh-theme to `~/.oh-my-zsh/themes` and set the theme in `~/.zshrc` to: `ZSH_THEME="ParoaPe` (line 11).
 
