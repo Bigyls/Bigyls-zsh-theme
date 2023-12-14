@@ -10,7 +10,7 @@ if [ -n "$SSH_CLIENT" ]; then
   local host_color="red"
 fi
 
-PROMPT="%{$fg_bold[red]%}[%{$reset_color%}%{$fg_bold[${host_color}]%}%n@%m%{$reset_color%}%{$fg_bold[red]%}]%{$reset_color%} %{$fg_bold[cyan]%}%c%{$reset_color%} {%{$fg_bold[yellow]%}%D{%d/%m/%y %H:%M}%{$reset_color%}} %{$fg_bold[red]%}$(ifconfig | grep -A 1 tun0 | grep inet | tr -s ' ' | cut -d ' ' -f 3) %{$reset_color%}
+PROMPT="%{$fg_bold[red]%}[%{$reset_color%}%{$fg_bold[${host_color}]%}%n@%m%{$reset_color%}%{$fg_bold[red]%}]%{$reset_color%} %{$fg_bold[cyan]%}%c%{$reset_color%} {%{$fg_bold[yellow]%}%D{%d/%m/%y %H:%M}%{$reset_color%}} %{$fg_bold[red]%}$(ip a | grep -A 1 tun0 | grep inet | tr -s ' ' | cut -d ' ' -f 3 | cut -d '/' -f 1) %{$reset_color%}
 %{$fg_bold[green]%}➜ %{$reset_color%}"
 PROMPT+='$(git_prompt_info)'
 

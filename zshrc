@@ -70,7 +70,7 @@ ZSH_THEME="Bigyls"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git docker npm zsh-autosuggestions zsh-syntax-highlighting)
+plugins=(git docker npm zsh-autosuggestions zsh-syntax-highlighting fzf colored-man-pages command-not-found safe-paste grc)
 
 source $ZSH/oh-my-zsh.sh
 

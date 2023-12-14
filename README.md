@@ -3,11 +3,11 @@
 
 Personnal zsh theme based on "lpha3cho Oh-My-Zsh theme for pentesters".
 
-This is a modified version of the intheloop theme, with date, time, and IP address added for penetration testing logging.
+This is a modified version of the intheloop theme, with date, time, and IP address and plugins added for penetration testing logging.
 
 ![screenshot](Bigyls-zsh-theme-screenshot.png)
 
-## Auto install with script
+## Auto install
 
 ```shell
 git clone https://github.com/Bigyls/Bigyls-zsh-theme.git
@@ -28,9 +28,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/too
 
 Copy the file Bigyls.zsh-theme to `~/.oh-my-zsh/themes` and set the theme in `~/.zshrc` to: `ZSH_THEME="Bigyls` (line 11).
 
-By default it's configured to include the IP address of eth0 for Internal network pentests, so change the network adapter in line 13 if needed.
-
-For External network pentests, comment out lines 13 and 14, and uncomment lines 16 and 17 to include your Internet IP address in the prompt.
+By default it's configured to include the IP address of eth0 for Internal network pentests, so change the network adapter if needed.
 
 ## Enabling Plugins (zsh-autosuggestions & zsh-syntax-highlighting)
 - Download zsh-autosuggestions by
