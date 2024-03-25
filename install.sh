@@ -11,6 +11,10 @@ if ! [ -x "$(command -v grc)" ]; then
   sudo apt install grc -y
 fi
 
+if ! [ -x "$(command -v fzf)" ]; then
+  sudo apt install fzf -y
+fi
+
 chsh -s $(which zsh)
 
 if sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)" "" --unattended; then
