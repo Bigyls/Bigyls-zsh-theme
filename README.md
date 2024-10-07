@@ -1,7 +1,7 @@
 # Bigyls-zsh-theme
 [![Profile last updated](https://img.shields.io/github/last-commit/Bigyls/Bigyls-zsh-theme)](https://github.com/Bigyls/Bigyls-zsh-theme)
 
-Personnal zsh theme based on "lpha3cho Oh-My-Zsh theme for pentesters".
+Personal zsh theme based on "lpha3cho Oh-My-Zsh theme for pentesters".
 
 This is a modified version of the intheloop theme, with date, time, and IP address and plugins added for penetration testing logging.
 
